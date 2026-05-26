@@ -249,7 +249,7 @@ const t = {
       heading: 'Un partenaire senior pour des transformations sérieuses.',
       body: "Je travaille avec des équipes dirigeantes qui refusent de se contenter d'un changement de surface. Ma pratique se situe à l'intersection de la stratégie, du produit, de l'agilité et de l'IA — transformer l'ambition en organisations qui délivrent réellement.",
       langs: ['English', 'Français'],
-      photoCaption: '« Je rentrais de chez Stellantis, après avoir guidé le département Big Data & IA dans leur PI Planning. Je me suis arrêté à La Défense, frappé par une pensée simple : j\'aidais à façonner l\'avenir. »',
+      photoCaption: '  J\’accompagne les dirigeants et les équipes pour relever les défis les plus stratégiques — accélérer l\’exécution, aligner la stratégie avec l\’action, transformer à l\’échelle et bâtir des organisations prêtes pour l\’avenir.',
       rightBody1: "Depuis plus de quinze ans, j'ai dirigé, guidé et participé à des transformations au sein de certaines des organisations les plus exigeantes d'Europe — assurance, banque, automobile, industrie, services financiers et technologie. Mon approche allie la rigueur du conseil de haut niveau au savoir-faire du praticien de terrain.",
       rightBody2: "Je conçois des modèles opérationnels, lance des Agile Release Trains, coache des dirigeants et forme la prochaine génération de leaders produit et delivery — dans les salles de conseil, dans les salles de classe, et là où le vrai travail se fait.",
       rightBody3: "Ma formation est en mathématiques — étudiée à l'Université Polytechnique de Bucarest — ce qui me donne une précision naturelle pour structurer la complexité et bâtir des systèmes qui résistent à la pression. Merci, les Maths.",
