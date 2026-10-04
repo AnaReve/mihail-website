@@ -238,7 +238,7 @@ const t = {
       badge: 'SAFe® Advanced SPC',
       badgeSub: 'Certifié au plus haut niveau',
       certified: 'Certifié',
-      location: 'Paris · Europe',
+      location: 'Paris · Intervention dans toute l’Europe',
     },
     logos: {
       heading: 'Missions au sein des entreprises européennes',
