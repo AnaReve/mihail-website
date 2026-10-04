@@ -525,7 +525,7 @@ export const MihailOlteanuWebsite = () => {
             <div className="absolute inset-0 pointer-events-none" style={{
               background: 'linear-gradient(to top, rgba(11,22,40,0.7) 0%, rgba(11,22,40,0.1) 50%, transparent 100%)'
             }} />
-            <div className="absolute bottom-0 left-0 right-0 p-6 hidden md:block">
+            <div className="absolute bottom-0 left-0 right-0 p-6">
               <div className="flex items-center gap-2 text-xs text-white/80">
                 <MapPin className="w-3 h-3 text-[#D4A84B]" />
                 <span>{i.hero.location}</span>
@@ -533,11 +533,7 @@ export const MihailOlteanuWebsite = () => {
             </div>
           </div>
 
-          <div className="mt-4 flex flex-wrap items-center justify-between gap-3 text-xs text-white/80 md:hidden">
-            <div className="flex items-center gap-2">
-              <MapPin className="w-3 h-3 shrink-0 text-[#D4A84B]" />
-              <span>{i.hero.location}</span>
-            </div>
+          <div className="mt-2 text-xs text-white/80 md:hidden">
             <div className="inline-flex items-center gap-2 rounded-sm border border-white/10 bg-[#0B1628] px-3 py-2">
               <Award className="w-4 h-4 shrink-0 text-[#D4A84B]" />
               <span>{i.hero.certified} · {i.hero.badge}</span>
