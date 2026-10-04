@@ -221,6 +221,7 @@ const insights: Insight[] = [{
   excerpt: 'The four levers that separate fast-forming teams from endlessly storming ones.',
   read: '5 min read'
 }];
+const showInsights = false;
 const timeline: TimelineItem[] = [{
   year: '2007',
   label: 'Engineering, delivery & project leadership roles in European technology environments'
@@ -1098,7 +1099,7 @@ export const MihailOlteanuWebsite = () => {
     </section>
 
     {/* INSIGHTS — hidden */}
-    {false && <section id="insights" className="relative py-24 md:py-32">
+    {showInsights && <section id="insights" className="relative py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div className="max-w-2xl">
