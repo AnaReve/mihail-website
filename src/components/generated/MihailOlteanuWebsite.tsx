@@ -521,26 +521,33 @@ export const MihailOlteanuWebsite = () => {
           <div className="relative aspect-[4/5] rounded-sm overflow-hidden">
             <div className="absolute -inset-4 border border-[#D4A84B]/20 rounded-sm pointer-events-none" />
             <div className="absolute -inset-4 border border-[#D4A84B]/10 rounded-sm translate-x-4 translate-y-4 pointer-events-none" />
-            <img src="/Mihail_Olteanu_1.jpg" alt="Mihail Olteanu — Enterprise Transformation Partner, Paris" className="w-full h-full object-cover object-center" />
+            <img src="/Mihail_Olteanu_1.webp" alt="Mihail Olteanu — Enterprise Transformation Partner, Paris" className="w-full h-full object-cover object-center" />
             <div className="absolute inset-0 pointer-events-none" style={{
               background: 'linear-gradient(to top, rgba(11,22,40,0.7) 0%, rgba(11,22,40,0.1) 50%, transparent 100%)'
             }} />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <div className="flex items-center gap-2 text-xs text-white/80">
                 <MapPin className="w-3 h-3 text-[#D4A84B]" />
-                <span>Paris · Operating across Europe</span>
+                <span>{i.hero.location}</span>
               </div>
             </div>
           </div>
 
-          <div className="absolute -bottom-6 -left-6 bg-[#0B1628] border border-white/10 rounded-sm p-4 shadow-2xl hidden md:block">
+          <div className="mt-2 text-xs text-white/80 md:hidden">
+            <div className="inline-flex items-center gap-2 rounded-sm border border-white/10 bg-[#0B1628] px-3 py-2">
+              <Award className="w-4 h-4 shrink-0 text-[#D4A84B]" />
+              <span>{i.hero.certified} · {i.hero.badge}</span>
+            </div>
+          </div>
+
+          <div className="absolute right-0 top-full -translate-y-2 bg-[#0B1628] border border-white/10 rounded-sm p-4 shadow-2xl hidden md:block">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[#D4A84B]/10 flex items-center justify-center">
                 <Award className="w-5 h-5 text-[#D4A84B]" />
               </div>
               <div>
                 <div className="text-xs text-white/50">{i.hero.certified}</div>
-                <div className="text-sm font-medium">SAFe® Advanced SPC</div>
+                <div className="text-sm font-medium">{i.hero.badge}</div>
               </div>
             </div>
           </div>
