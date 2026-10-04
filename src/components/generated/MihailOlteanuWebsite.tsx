@@ -521,7 +521,7 @@ export const MihailOlteanuWebsite = () => {
           <div className="relative aspect-[4/5] rounded-sm overflow-hidden">
             <div className="absolute -inset-4 border border-[#D4A84B]/20 rounded-sm pointer-events-none" />
             <div className="absolute -inset-4 border border-[#D4A84B]/10 rounded-sm translate-x-4 translate-y-4 pointer-events-none" />
-            <img src="/Mihail_Olteanu_1.jpg" alt="Mihail Olteanu — Enterprise Transformation Partner, Paris" className="w-full h-full object-cover object-center" />
+            <img src="/Mihail_Olteanu_1.webp" alt="Mihail Olteanu — Enterprise Transformation Partner, Paris" className="w-full h-full object-cover object-center" />
             <div className="absolute inset-0 pointer-events-none" style={{
               background: 'linear-gradient(to top, rgba(11,22,40,0.7) 0%, rgba(11,22,40,0.1) 50%, transparent 100%)'
             }} />
